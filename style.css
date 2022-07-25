@@ -1,0 +1,122 @@
+body{
+    color: white;
+    background-image: linear-gradient(rgb(135, 35, 175),rgb(45, 3, 58));
+    height:100vh;
+}
+::placeholder{
+    color: rgb(52, 52, 52);
+}
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    
+}
+.search-box{
+    height: 25px;
+    width: 220px;
+    background-color: rgb(157, 90, 180);
+    border: none;
+    padding: 0px 10px;
+    color: #2b2a2aa6;
+    border-top-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-bottom: 3px solid rgb(186, 159, 25);
+}
+.temp{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    font-weight: bolder;
+  
+    text-shadow: 0px 6px 2px black ;
+}
+.temp{
+    margin: 20% 0%;
+}
+.city{
+    margin-top: 20%;
+    text-align: center;
+    font-size: xx-large;
+}
+.date{
+    text-align: center;
+}
+.weather{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    text-shadow: 0px 4px 1px rgb(55, 55, 55) ;
+}
+.hi-low{
+    text-align: center;
+    margin-top: 5%;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 4px 1px rgb(55, 55, 55) ;
+}
+.grid-container {
+        
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    padding: 5px;
+    height: 100%;
+  }
+  .grid-item1{
+  
+      background-color: royalblue;
+      display: grid;
+  }
+  .grid-item{
+  
+  background-color: lightgrey;
+  display: grid;
+  }
+  h1, h3{
+      color: white;
+      font-weight: bolder;
+      margin-top: 25%;
+  }
+  span{
+      color: black;
+      font-weight: bolder;
+  }
+  p{
+      color: white;
+      
+  }
+  li{
+      color: white;
+      
+  }
+  .bdy{
+      margin-left: 20%;
+  }
+  .dd{
+      margin-left: 25%;
+      margin-top: 10%;
+  }
+  #pp{
+      color: black;
+  }
+  #show{
+      color: black;
+      font-size: xx-large;
+  }
+  #show1,#show3{
+      color: black;
+      font-size: medium;
+  }
+  #show2{
+      color: black;
+      font-size: xx-large;
+  }
+  #tt{
+      margin-left: 20%;
+      margin-top: 20%;
+  }
+     
+    
